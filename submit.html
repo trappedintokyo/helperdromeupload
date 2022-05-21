@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>      <link rel="stylesheet" href="/formsheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js">
+
+    </script>
+  </head>
+<body>
+
+    <div class="topnav">
+      <a href="/">Home</a>
+      <a href="/news">News</a>
+      <a href="/posts">Posts</a>
+      <a href="/contact">Contact</a>
+      <a href="/about">About</a>
+      <a class="active" href="/submit">Submit</a>
+    </div>
+<h1>COMMUNITY INPUT FORM</h1>
+<div>
+<form>
+  <label for ="describe">Describe what you are submitting!</label>
+  <br>
+  <textarea id="describe" name="describe" rows="4" cols="50"></textarea>
+  <br>
+  <label for ="related">What is it related to?</label>
+  <br>
+  <textarea id="related" name="related" rows="4" cols="50"></textarea>
+  <br>
+  <label for ="location">Where is this located?</label>
+  <br>
+  <textarea id="location" name="location" rows="4" cols="50"></textarea>
+  <br>
+<label for ="proof">Proof of this thing?</label>
+<br>
+<textarea id="proof" name="proof" rows="4" cols="50"></textarea>
+<br>
+<br>
+<input type="button" id = "createButton" value="All done?">
+
+
+</form>
+</div>
+
+<script src ="app.js"></script>
+</body>
+</html>
