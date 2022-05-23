@@ -15,7 +15,8 @@ app.use(routes);
 var mongodb = require('mongodb');
 
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/submissions");
+//mongoose.connect("mongodb://localhost:27017/submissions");
+mongoose.connect("mongodb://127.0.0.1:27017/submissions");
 app.use(express.static(path.join(__dirname, 'public')));
 
 
